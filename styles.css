@@ -1,0 +1,72 @@
+* {
+  outline: none;
+}
+
+body {
+  text-align: center;
+  background: #f6f7eb url('http://i1073.photobucket.com/albums/w381/jhadams82/ricepaper_v3_zpsnxajf5xk.png');
+}
+
+a, a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Arvo", Serif;
+  color: #C13F3F;
+  font-size: 3.5em;
+  text-shadow: -.075em .075em #ccc;
+  margin: 2em 0 0 0;
+}
+
+p {
+  font-family: "Arimo", sans-serif;
+  font-size: 1.2em;
+  color: #393E41;
+  font-weight: bold;
+  width: 65%;
+  margin: 1.5em auto;
+}
+
+.quote-box {
+  background: #44BBA4;
+  display: inline-block;
+  padding: 1.2em;
+  margin: .5em;
+  box-shadow: -.4em .4em .4em rgba(4, 4, 4, .7);;
+  border-radius: .75em;
+}
+
+.quote {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.author {
+  font-family: 'Arimo', sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.btn {
+  margin: 1.5em auto;
+  border-radius: .4em;
+  background: #3F88C5;
+  font-family: "Montserrat", serif;
+  font-size: 1.5em;
+  color: white;
+}
+
+.btn:focus {
+  outline: none;
+  color: white;
+}
+
+.btn:link, .btn:visited, .btn:active, .btn:hover {
+  color: white;
+}
+
+.twitter-link {
+  font-weight: bold;
+}

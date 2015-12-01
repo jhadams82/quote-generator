@@ -8,7 +8,7 @@ $(document).ready(function () {
   var generate = function() {
     var index = Math.floor(Math.random()*quotes.length/2)*2;
     new_quote = quotes[ index ];
-    new_author = quotes[ index + 1 ];
+    new_author = "  -" + quotes[ index + 1 ];
     $('.quote').text(new_quote);
     $('.author').text(new_author);
 
